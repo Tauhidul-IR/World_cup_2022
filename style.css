@@ -60,7 +60,29 @@ body {
     font-size: 20px;
 }
 
+.live span {
+    height: 10px;
+    width: 30px;
+    background-color: #99333c;
+    display: inline-block;
+    animation: sliding 1s ease-in infinite alternate;
+    border-radius: 8px;
+    margin-left: 5px;
+}
 
+
+/* animation */
+@keyframes sliding {
+    From {
+        background-color: rgb(206, 226, 23);
+
+    }
+
+    To {
+        background-color: #0b0934;
+
+    }
+}
 
 
 /* main-section-start */
