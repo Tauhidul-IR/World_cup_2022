@@ -412,6 +412,25 @@ match section CSS
         width: 6px;
     }
 
+    .match-icon {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        align-items: center;
+    }
+
+    .match-icon h3 {
+        font-size: 15px;
+    }
+
+    .match-info h4 {
+        font-size: 15px;
+    }
+
+    .match-info h6 {
+        font-size: 12px;
+    }
+
 }
 
 /* media query for iPads, Tablets*/
@@ -508,8 +527,28 @@ match section CSS
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .match-icon {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        align-items: center;
+    }
+
+    .match-icon h3 {
+        font-size: 15px;
+    }
+
+    .match-info h4 {
+        font-size: 15px;
+    }
+
+    .match-info h6 {
+        font-size: 12px;
+    }
+
 }
 
+/* other part */
 @media only screen and (min-width:481px) and (max-width:553px) {
     .groups {
         border: 1px solid #e3dddd;
@@ -556,6 +595,39 @@ match section CSS
     .bottom-button {
         display: none;
     }
+
+    .info button {
+        font-size: 12px;
+    }
+
+    .info h4 {
+        font-size: 15px;
+    }
+
+    .icon {
+        font-size: 10px;
+    }
+
+    .match-icon {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: 35% 25% 35%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .match-info h4 {
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .match-info h6 {
+        font-size: 10px;
+    }
+
+    .match-icon h3 {
+        font-size: 15px;
+    }
 }
 
 /* media query for large devices */
@@ -575,6 +647,23 @@ match section CSS
     .bottom-button {
         display: none;
     }
+
+    .match-icon {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .match-info h6 {
+        font-size: 10px;
+    }
+
+    .match-info h4 {
+        font-size: 15px;
+        margin-top: 0;
+    }
 }
 
 /* media query for extra large devices */
@@ -585,5 +674,17 @@ match section CSS
 
     .bottom-button {
         display: none;
+    }
+
+    .match-icon {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        align-items: center;
+    }
+
+    .match-info h4 {
+        font-size: 20px;
+        margin-top: 0;
     }
 }
