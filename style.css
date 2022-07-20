@@ -260,3 +260,31 @@ body {
 .icons a {
     color: white;
 }
+
+
+/* -----------------------------------------------------------------
+match section CSS 
+--------------------------------------------------------------------*/
+.match-info {
+    text-align: center;
+}
+
+.match-icon {
+    margin: 20px;
+    display: flex;
+}
+
+.match-icon img {}
+
+.match-icon h3 {}
+
+.match-info h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.match-info h6 {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 10px;
+}
